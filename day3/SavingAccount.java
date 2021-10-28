@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 
 public class SavingsAccount {
-	private int AccountNumber=1000;
+	private int AccountNumber=2000;
 	private String Password;
 	 double InterestRate=2.0;
 	double Balance=0;
@@ -117,7 +117,7 @@ public class SavingsAccount {
 		return true;}
 		
 		else {
-			System.out.println("this a savings account aand minimum balance should be greather than 4999");
+			System.out.println("this a savings account aand minimum balance should be greather than 5999");
 			
 		
 		return false;
@@ -157,7 +157,7 @@ public void SavingsWithdraw()
 		{
 			System.out.println("Should not withdraw amount.Please withdraw some other Amount!!!");
 		}
-		else if(Amount>=Balance-4999)
+		else if(Amount>=Balance-5999)
 		{
 			System.out.println("Less Balance..Please withdraw some other Amount!!!");
 		}
