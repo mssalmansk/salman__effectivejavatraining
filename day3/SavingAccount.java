@@ -1,5 +1,8 @@
 package multipleaccount;
+
 import java.util.Scanner;
+
+
 
 
 public class SavingsAccount {
@@ -9,9 +12,6 @@ public class SavingsAccount {
 	double Balance=0;
 	String Name;
 	Scanner scan =new Scanner(System.in);
-	
-	
-
 	public void createaccount() {
 		System.out.println("enter the Name");
 		Name=scan.next();
@@ -25,6 +25,7 @@ public class SavingsAccount {
 		else {
 				System.out.println("passwords do not match");//we can use loop but i don't know when to stop
 			}
+		
 		
 		System.out.println("your allowted number is "+AccountNumber );
 		System.out.println("which type of account you are creating ");
@@ -133,8 +134,7 @@ public class SavingsAccount {
 		
 	}
 	
-	
-public void show() {
+	public void show() {
 	System.out.println("account number\t"+AccountNumber);
 	System.out.println("name         \t"+Name);
 	System.out.println("password     \t"+Password);
@@ -144,6 +144,7 @@ public void show() {
 
 public void SavingsWithdraw()
 {
+	
 	
 	String psw;
 	
